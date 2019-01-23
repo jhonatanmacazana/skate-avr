@@ -57,11 +57,17 @@ int main(void)
 			motor_avanza(0);
 			motor_retrocede(USART_Receive());
 		}
+		
 		/* Ultrasonido */
 		distancia = GetDist();
 		if (distancia < 0){distancia = 0;}
 		else if (distancia >255){ distancia = 255;}
-		if(distancia < 15){Buzzer_On(NOTE_A4, 500);}
+		if(distancia < 15)
+		{
+			Buzzer_On(NOTE_A4, 500);
+			motor_avanza(0);
+			motor_retrocede(0);
+		}
 		
 		/* Estados*/
 		switch (estado)
@@ -71,26 +77,35 @@ int main(void)
 				LCD_Cursor_Up();
 				LCD_WriteString("  Bienvenidos!  ");
 				LCD_Cursor_Down();
-				LCD_WriteString("    a UTEC      ");
+				LCD_WriteString("    a UTEC ");
 				break;
 			case 1:
+			
+				/* Calcula el porcentaje de la bateria */
+				lee_bateria();
 				/* Imprime en LCD */
 				LCD_Cursor_Up();
-				LCD_WriteString("Nivel:");
+				LCD_WriteString("Nivel:          ");
 				LCD_Cursor_Down();
 				LCD_WriteInt(bateria_p);
-				LCD_WriteString(" %");
+				LCD_WriteString(" %      ");
 				
-				/* Calcula el porcentaje de la bateria */
-				//lee_bateria();
 				break;
 			case 2:
 				/* Imprime en LCD */
 				LCD_Cursor_Up();
-				LCD_WriteString("Distancia:");
+				LCD_WriteString("Distancia:    ");
 				LCD_Cursor_Down();
-				LCD_WriteInt(distancia);
-				LCD_WriteString(" cm");
+				if (distancia <30)
+				{
+					LCD_WriteInt(distancia);
+					LCD_WriteString(" cm    ");
+				}
+				else
+				{
+					LCD_WriteString(" > 30 cm    ");
+					
+				}
 				break;
 				
 			default:
@@ -109,11 +124,13 @@ int main(void)
 /* INT0 cambia de estado para mostrar la pantalla de LCD*/
 ISR(INT0_vect)
 {
+	
 	LCD_Clear();
 	if (estado ==2)
 		estado = 0;
 	else
 		estado++;
+		
 }
 
 /* INT0 es el trigger para empezar el ADC. Cuando está listo, modifica el PWM y prepara el valor para el LCD*/

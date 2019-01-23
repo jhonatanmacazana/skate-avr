@@ -12,22 +12,10 @@ d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libg
                               main.o (__do_copy_data)
 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
                               main.o (__do_clear_bss)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
-                              Perif/LCD.o (sprintf)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
-                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o) (vfprintf)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
-                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
-                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o) (__prologue_saves__)
-d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
-                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o) (__epilogue_restores__)
+d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              Perif/LCD.o (itoa)
+d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
 
 Allocating common symbols
 Common symbol       size              file
@@ -47,9 +35,8 @@ Discarded input sections
  .text          0x00000000        0x0 Perif/ADC.o
  .data          0x00000000        0x0 Perif/ADC.o
  .bss           0x00000000        0x0 Perif/ADC.o
- .text.lee_bateria
-                0x00000000        0xc Perif/ADC.o
  .text          0x00000000        0x0 Perif/LCD.o
+ .data          0x00000000        0x0 Perif/LCD.o
  .bss           0x00000000        0x0 Perif/LCD.o
  .text          0x00000000        0x0 Perif/ULTRASONIC.o
  .data          0x00000000        0x0 Perif/ULTRASONIC.o
@@ -84,30 +71,12 @@ Discarded input sections
  .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
  .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc   0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
- .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
- .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
- .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+ .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00000000        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strrev.o)
 
 Memory Configuration
 
@@ -226,7 +195,7 @@ LOAD d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xef0
+.text           0x00000000      0x998
  *(.vectors)
  .vectors       0x00000000       0x68 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
                 0x00000000                __vector_default
@@ -304,105 +273,92 @@ LOAD d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5
                 0x000000a2                __vector_20
                 0x000000a6                . = ALIGN (0x2)
  *(.text.*)
- .text.main     0x000000a6      0x13e main.o
+ .text.main     0x000000a6      0x162 main.o
                 0x000000a6                main
  .text.__vector_1
-                0x000001e4       0x5c main.o
-                0x000001e4                __vector_1
+                0x00000208       0x5c main.o
+                0x00000208                __vector_1
  .text.__vector_21
-                0x00000240       0x80 main.o
-                0x00000240                __vector_21
+                0x00000264       0x80 main.o
+                0x00000264                __vector_21
  .text.ADC_Init
-                0x000002c0       0x2c Perif/ADC.o
-                0x000002c0                ADC_Init
+                0x000002e4       0x2c Perif/ADC.o
+                0x000002e4                ADC_Init
+ .text.lee_bateria
+                0x00000310        0xc Perif/ADC.o
+                0x00000310                lee_bateria
  .text.Motor_Init
-                0x000002ec       0x22 Perif/ADC.o
-                0x000002ec                Motor_Init
+                0x0000031c       0x22 Perif/ADC.o
+                0x0000031c                Motor_Init
  .text.Toggle_EN
-                0x0000030e       0x12 Perif/LCD.o
-                0x0000030e                Toggle_EN
- .text.LCD_cmd  0x00000320       0x32 Perif/LCD.o
-                0x00000320                LCD_cmd
+                0x0000033e       0x12 Perif/LCD.o
+                0x0000033e                Toggle_EN
+ .text.LCD_cmd  0x00000350       0x32 Perif/LCD.o
+                0x00000350                LCD_cmd
  .text.LCD_Write
-                0x00000352       0x32 Perif/LCD.o
-                0x00000352                LCD_Write
+                0x00000382       0x32 Perif/LCD.o
+                0x00000382                LCD_Write
  .text.LCD_WriteString
-                0x00000384       0x1e Perif/LCD.o
-                0x00000384                LCD_WriteString
+                0x000003b4       0x1e Perif/LCD.o
+                0x000003b4                LCD_WriteString
  .text.LCD_Init
-                0x000003a2        0x6 Perif/LCD.o
-                0x000003a2                LCD_Init
+                0x000003d2        0x6 Perif/LCD.o
+                0x000003d2                LCD_Init
  .text.LCD_Start
-                0x000003a8       0x76 Perif/LCD.o
-                0x000003a8                LCD_Start
+                0x000003d8       0x76 Perif/LCD.o
+                0x000003d8                LCD_Start
  .text.LCD_WriteInt
-                0x0000041e       0x66 Perif/LCD.o
-                0x0000041e                LCD_WriteInt
+                0x0000044e       0x3e Perif/LCD.o
+                0x0000044e                LCD_WriteInt
  .text.LCD_Clear
-                0x00000484        0x8 Perif/LCD.o
-                0x00000484                LCD_Clear
+                0x0000048c        0x8 Perif/LCD.o
+                0x0000048c                LCD_Clear
  .text.Ultrasonic_Init
-                0x0000048c       0x22 Perif/ULTRASONIC.o
-                0x0000048c                Ultrasonic_Init
- .text.GetDist  0x000004ae       0x32 Perif/ULTRASONIC.o
-                0x000004ae                GetDist
+                0x00000494       0x22 Perif/ULTRASONIC.o
+                0x00000494                Ultrasonic_Init
+ .text.GetDist  0x000004b6       0x32 Perif/ULTRASONIC.o
+                0x000004b6                GetDist
  .text.Buzzer_Init
-                0x000004e0       0x1e Perif/ULTRASONIC.o
-                0x000004e0                Buzzer_Init
+                0x000004e8       0x1e Perif/ULTRASONIC.o
+                0x000004e8                Buzzer_Init
  .text.Buzzer_On
-                0x000004fe      0x1e4 Perif/ULTRASONIC.o
-                0x000004fe                Buzzer_On
+                0x00000506      0x1e4 Perif/ULTRASONIC.o
+                0x00000506                Buzzer_On
  .text.__vector_7
-                0x000006e2       0x78 Perif/ULTRASONIC.o
-                0x000006e2                __vector_7
+                0x000006ea       0x78 Perif/ULTRASONIC.o
+                0x000006ea                __vector_7
  .text.__vector_4
-                0x0000075a       0x3a Perif/ULTRASONIC.o
-                0x0000075a                __vector_4
+                0x00000762       0x3a Perif/ULTRASONIC.o
+                0x00000762                __vector_4
  .text.USART_Init
-                0x00000794       0x2c Perif/USART_irq.o
-                0x00000794                USART_Init
+                0x0000079c       0x2c Perif/USART_irq.o
+                0x0000079c                USART_Init
  .text.__vector_18
-                0x000007c0       0x46 Perif/USART_irq.o
-                0x000007c0                __vector_18
+                0x000007c8       0x46 Perif/USART_irq.o
+                0x000007c8                __vector_18
  .text.__vector_19
-                0x00000806       0x56 Perif/USART_irq.o
-                0x00000806                __vector_19
+                0x0000080e       0x56 Perif/USART_irq.o
+                0x0000080e                __vector_19
  .text.USART_Receive
-                0x0000085c       0x24 Perif/USART_irq.o
-                0x0000085c                USART_Receive
- .text.libgcc   0x00000880       0x3e d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
-                0x00000880                __mulsi3
- .text.libgcc   0x000008be       0x28 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
-                0x000008be                __udivmodhi4
- .text.libgcc   0x000008e6       0x44 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
-                0x000008e6                __udivmodsi4
+                0x00000864       0x24 Perif/USART_irq.o
+                0x00000864                USART_Receive
+ .text.libgcc   0x00000888       0x3e d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+                0x00000888                __mulsi3
+ .text.libgcc   0x000008c6       0x28 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+                0x000008c6                __udivmodhi4
+ .text.libgcc   0x000008ee       0x44 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+                0x000008ee                __udivmodsi4
  .text.avr-libc
-                0x0000092a       0x46 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
-                0x0000092a                sprintf
+                0x00000932       0x42 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x00000932                itoa
  .text.avr-libc
-                0x00000970      0x3ce d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
-                0x00000970                vfprintf
- .text.avr-libc
-                0x00000d3e       0x16 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                0x00000d3e                strnlen_P
- .text.avr-libc
-                0x00000d54       0x16 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                0x00000d54                strnlen
- .text.avr-libc
-                0x00000d6a       0x58 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
-                0x00000d6a                fputc
- .text.avr-libc
-                0x00000dc2       0xbc d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                0x00000dc2                __ultoa_invert
- .text.libgcc   0x00000e7e       0x38 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
-                0x00000e7e                __prologue_saves__
- .text.libgcc   0x00000eb6       0x36 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
-                0x00000eb6                __epilogue_restores__
-                0x00000eec                . = ALIGN (0x2)
+                0x00000974       0x20 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00000974                strrev
+                0x00000994                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000eec        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
-                0x00000eec                _exit
-                0x00000eec                exit
+ .fini9         0x00000994        0x0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                0x00000994                _exit
+                0x00000994                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -421,63 +377,63 @@ LOAD d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000eec        0x4 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .fini0         0x00000994        0x4 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000ef0                _etext = .
+                0x00000998                _etext = .
 
-.data           0x00800100       0x3e load address 0x00000ef0
+.data           0x00800100       0x5c load address 0x00000998
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
- .data          0x00800100       0x3b main.o
- .data          0x0080013b        0x3 Perif/LCD.o
+ .data          0x00800100       0x5b main.o
  *(.data*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
-                0x0080013e                . = ALIGN (0x2)
-                0x0080013e                _edata = .
-                0x0080013e                PROVIDE (__data_end, .)
+                0x0080015c                . = ALIGN (0x2)
+ *fill*         0x0080015b        0x1 00
+                0x0080015c                _edata = .
+                0x0080015c                PROVIDE (__data_end, .)
 
-.bss            0x0080013e       0x21
-                0x0080013e                PROVIDE (__bss_start, .)
+.bss            0x0080015c       0x21
+                0x0080015c                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.distancia
-                0x0080013e        0x1 main.o
-                0x0080013e                distancia
- .bss.estado    0x0080013f        0x1 main.o
-                0x0080013f                estado
- .bss.Ep        0x00800140        0x1 Perif/ULTRASONIC.o
-                0x00800140                Ep
+                0x0080015c        0x1 main.o
+                0x0080015c                distancia
+ .bss.estado    0x0080015d        0x1 main.o
+                0x0080015d                estado
+ .bss.Ep        0x0080015e        0x1 Perif/ULTRASONIC.o
+                0x0080015e                Ep
  .bss.USART_TxHead
-                0x00800141        0x1 Perif/USART_irq.o
+                0x0080015f        0x1 Perif/USART_irq.o
  .bss.USART_TxTail
-                0x00800142        0x1 Perif/USART_irq.o
+                0x00800160        0x1 Perif/USART_irq.o
  .bss.USART_TxBuf
-                0x00800143        0x8 Perif/USART_irq.o
+                0x00800161        0x8 Perif/USART_irq.o
  .bss.USART_RxHead
-                0x0080014b        0x1 Perif/USART_irq.o
+                0x00800169        0x1 Perif/USART_irq.o
  .bss.USART_RxTail
-                0x0080014c        0x1 Perif/USART_irq.o
+                0x0080016a        0x1 Perif/USART_irq.o
  .bss.USART_RxBuf
-                0x0080014d        0x8 Perif/USART_irq.o
+                0x0080016b        0x8 Perif/USART_irq.o
  *(COMMON)
- COMMON         0x00800155        0x6 main.o
-                0x00800155                bateria_p
-                0x00800157                bateriaLecturaAdc
-                0x00800159                bateria_mV
- COMMON         0x0080015b        0x4 Perif/ULTRASONIC.o
-                0x0080015b                timer2_toggle_count
-                0x0080015f                PROVIDE (__bss_end, .)
-                0x00000ef0                __data_load_start = LOADADDR (.data)
-                0x00000f2e                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800173        0x6 main.o
+                0x00800173                bateria_p
+                0x00800175                bateriaLecturaAdc
+                0x00800177                bateria_mV
+ COMMON         0x00800179        0x4 Perif/ULTRASONIC.o
+                0x00800179                timer2_toggle_count
+                0x0080017d                PROVIDE (__bss_end, .)
+                0x00000998                __data_load_start = LOADADDR (.data)
+                0x000009f4                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0080015f        0x0
-                0x0080015f                PROVIDE (__noinit_start, .)
+.noinit         0x0080017d        0x0
+                0x0080017d                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x0080015f                PROVIDE (__noinit_end, .)
-                0x0080015f                _end = .
-                0x0080015f                PROVIDE (__heap_start, .)
+                0x0080017d                PROVIDE (__noinit_end, .)
+                0x0080017d                _end = .
+                0x0080017d                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -495,19 +451,17 @@ LOAD d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5
 .signature
  *(.signature*)
 
-.stab           0x00000000      0xc84
+.stab           0x00000000      0x954
  *(.stab)
  .stab          0x00000000      0x6cc d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
- .stab          0x000006cc       0x9c d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                                 0xa8 (size before relaxing)
- .stab          0x00000768       0x9c d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                                 0xa8 (size before relaxing)
- .stab          0x00000804      0x480 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                                0x48c (size before relaxing)
+ .stab          0x000006cc      0x1b0 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+                                0x1bc (size before relaxing)
+ .stab          0x0000087c       0xd8 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+                                 0xe4 (size before relaxing)
 
-.stabstr        0x00000000      0x1fe
+.stabstr        0x00000000      0x183
  *(.stabstr)
- .stabstr       0x00000000      0x1fe d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .stabstr       0x00000000      0x183 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
 
 .stab.excl
  *(.stab.excl)
@@ -536,7 +490,7 @@ LOAD d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x1b0
+.debug_aranges  0x00000000      0x150
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x30 main.o
@@ -548,15 +502,9 @@ LOAD d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5
                 0x000000b8       0x50 Perif/ULTRASONIC.o
  .debug_aranges
                 0x00000108       0x48 Perif/USART_irq.o
- .debug_aranges
-                0x00000150       0x20 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_aranges
-                0x00000170       0x20 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_aranges
-                0x00000190       0x20 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .debug_pubnames
-                0x00000000      0x2bb
+                0x00000000      0x262
  *(.debug_pubnames)
  .debug_pubnames
                 0x00000000       0x86 main.o
@@ -568,85 +516,59 @@ LOAD d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5
                 0x0000014c       0x9c Perif/ULTRASONIC.o
  .debug_pubnames
                 0x000001e8       0x7a Perif/USART_irq.o
- .debug_pubnames
-                0x00000262       0x1e d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_pubnames
-                0x00000280       0x1f d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_pubnames
-                0x0000029f       0x1c d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_info     0x00000000     0x11e7
+.debug_info     0x00000000      0xb79
  *(.debug_info)
  .debug_info    0x00000000      0x239 main.o
  .debug_info    0x00000239       0xb3 Perif/ADC.o
  .debug_info    0x000002ec      0x3e0 Perif/LCD.o
  .debug_info    0x000006cc      0x298 Perif/ULTRASONIC.o
  .debug_info    0x00000964      0x215 Perif/USART_irq.o
- .debug_info    0x00000b79      0x1b7 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_info    0x00000d30      0x350 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_info    0x00001080      0x167 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev   0x00000000      0x8a7
+.debug_abbrev   0x00000000      0x572
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x13f main.o
  .debug_abbrev  0x0000013f       0x4e Perif/ADC.o
  .debug_abbrev  0x0000018d      0x181 Perif/LCD.o
  .debug_abbrev  0x0000030e      0x19d Perif/ULTRASONIC.o
  .debug_abbrev  0x000004ab       0xc7 Perif/USART_irq.o
- .debug_abbrev  0x00000572       0xfd d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_abbrev  0x0000066f      0x15f d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_abbrev  0x000007ce       0xd9 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_line     0x00000000     0x186d
+.debug_line     0x00000000      0xebe
  *(.debug_line)
- .debug_line    0x00000000      0x314 main.o
- .debug_line    0x00000314      0x189 Perif/ADC.o
- .debug_line    0x0000049d      0x397 Perif/LCD.o
- .debug_line    0x00000834      0x3fb Perif/ULTRASONIC.o
- .debug_line    0x00000c2f      0x25d Perif/USART_irq.o
- .debug_line    0x00000e8c      0x1ec d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_line    0x00001078      0x68a d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_line    0x00001702      0x16b d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .debug_line    0x00000000      0x346 main.o
+ .debug_line    0x00000346      0x189 Perif/ADC.o
+ .debug_line    0x000004cf      0x397 Perif/LCD.o
+ .debug_line    0x00000866      0x3fb Perif/ULTRASONIC.o
+ .debug_line    0x00000c61      0x25d Perif/USART_irq.o
 
-.debug_frame    0x00000000      0x260
+.debug_frame    0x00000000      0x200
  *(.debug_frame)
  .debug_frame   0x00000000       0x40 main.o
  .debug_frame   0x00000040       0x40 Perif/ADC.o
  .debug_frame   0x00000080       0x90 Perif/LCD.o
  .debug_frame   0x00000110       0x80 Perif/ULTRASONIC.o
  .debug_frame   0x00000190       0x70 Perif/USART_irq.o
- .debug_frame   0x00000200       0x20 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_frame   0x00000220       0x20 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_frame   0x00000240       0x20 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_str      0x00000000      0x53b
+.debug_str      0x00000000      0x37a
  *(.debug_str)
  .debug_str     0x00000000      0x145 main.o
                                 0x17e (size before relaxing)
  .debug_str     0x00000145       0x2f Perif/ADC.o
                                  0xe7 (size before relaxing)
- .debug_str     0x00000174       0x7c Perif/LCD.o
-                                0x1a1 (size before relaxing)
- .debug_str     0x000001f0       0xa7 Perif/ULTRASONIC.o
+ .debug_str     0x00000174       0x86 Perif/LCD.o
+                                0x1ab (size before relaxing)
+ .debug_str     0x000001fa       0xa7 Perif/ULTRASONIC.o
                                 0x1d5 (size before relaxing)
- .debug_str     0x00000297       0xd4 Perif/USART_irq.o
+ .debug_str     0x000002a1       0xd9 Perif/USART_irq.o
                                 0x191 (size before relaxing)
- .debug_str     0x0000036b       0xab d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
-                                0x133 (size before relaxing)
- .debug_str     0x00000416       0xbd d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
-                                0x189 (size before relaxing)
- .debug_str     0x000004d3       0x68 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
-                                0x10d (size before relaxing)
 
-.debug_loc      0x00000000      0xae4
+.debug_loc      0x00000000      0x3f3
  *(.debug_loc)
  .debug_loc     0x00000000       0x2a main.o
  .debug_loc     0x0000002a       0x77 Perif/LCD.o
  .debug_loc     0x000000a1      0x270 Perif/ULTRASONIC.o
  .debug_loc     0x00000311       0xe2 Perif/USART_irq.o
- .debug_loc     0x000003f3      0x6a1 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_loc     0x00000a94       0x50 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -654,7 +576,7 @@ OUTPUT(Skate_M1.elf elf32-avr)
 LOAD linker stubs
 
 .debug_pubtypes
-                0x00000000      0x1bf
+                0x00000000       0xfb
  .debug_pubtypes
                 0x00000000       0x38 main.o
  .debug_pubtypes
@@ -665,19 +587,10 @@ LOAD linker stubs
                 0x00000099       0x44 Perif/ULTRASONIC.o
  .debug_pubtypes
                 0x000000dd       0x1e Perif/USART_irq.o
- .debug_pubtypes
-                0x000000fb       0x48 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_pubtypes
-                0x00000143       0x53 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_pubtypes
-                0x00000196       0x29 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_ranges   0x00000000      0x148
+.debug_ranges   0x00000000      0x100
  .debug_ranges  0x00000000       0x20 main.o
  .debug_ranges  0x00000020       0x20 Perif/ADC.o
  .debug_ranges  0x00000040       0x48 Perif/LCD.o
  .debug_ranges  0x00000088       0x40 Perif/ULTRASONIC.o
  .debug_ranges  0x000000c8       0x38 Perif/USART_irq.o
- .debug_ranges  0x00000100       0x10 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .debug_ranges  0x00000110       0x28 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .debug_ranges  0x00000138       0x10 d:/aplicaciones/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)

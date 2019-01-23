@@ -8,7 +8,7 @@
 #define F_CPU 1000000UL		// 1MHz
 #include <avr/io.h>
 #include <util/delay.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 #include "LCD.h"
 
@@ -98,9 +98,9 @@ void LCD_Start(void){
 /*Función para escribir Integers en LCD:
 	-Utiliza la función "sprintf" para convertir entero a string*/
 void LCD_WriteInt (int8_t Num){
-	char str[2];
-	sprintf(str,"%d",Num);
-	LCD_WriteString(str);
+	char arraytemp[4];
+	itoa(Num, arraytemp, 10);
+	LCD_WriteString(arraytemp);
 	return;
 }
 
